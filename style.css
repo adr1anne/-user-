@@ -1,0 +1,129 @@
+*{
+  margin: 0px;
+  padding: 0px;
+
+}
+body {
+  font-family: 'Lucidia Console', "Courier New", monospace;
+  text-align: center; 
+  background-color: #ECAF91; /* Background color */
+  background-image: linear-gradient(#ECAF91, #ea9fce);
+}
+
+header {
+  background-color: #F0E7D8;
+  text-align: center; 
+}
+
+main {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left:20%;
+  margin-right:20%;
+}
+
+footer {
+background-color: #F0E7D8;
+padding: 20px;
+}
+
+/* STYLE TEXT */
+h1 {
+  font-family: 'Fredoka One', cursive;
+  background-color: #A63A50;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+  width: 250px;
+  border-radius: 20px;
+  text-align: center;
+  color: #F0E7D8
+}
+
+
+h3 {
+  font-style:italic;
+  color: #84011b;
+  padding-top: 1em;
+  padding-bottom: 0.5em;
+  text-align: left;
+  text-transform: capitalize;
+}
+  
+p {
+  color: black;
+  padding-bottom: 2em;
+
+}
+
+#bottom{
+  color: #4b0101;
+  padding:0.1em;
+  text-align:center;
+  text-decoration: underline;
+}
+
+/* STYLE IMAGES */
+img {
+  border: 4px solid #F0E7D8;
+  margin-bottom: 2em;
+}
+
+.ss {
+  border-radius: 20%;
+}
+
+#special {
+  border:0px transparent;
+}
+
+
+/* STYLE NAV BAR */
+
+
+ul,ol {
+  font-family: 'Fredoka One', cursive;
+  list-style-type: none;
+  overflow:hidden;
+  margin-bottom: 2em;
+  margin-top: .7em;
+  padding: 1em;
+}
+
+li {
+  display: inline;
+}
+
+li a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.3em;
+  padding: 1em;
+}
+
+li a:hover {
+  background-color:darkred;
+}
+
+li a:visited {
+  color:white;
+}
+
+a.extra:link {
+  font-size: 15px;
+  color: #4b0101;
+  text-align:left;
+}
+
+a.extra:visited {
+  color:#4b0101;
+}
+a.extra:hover {
+  color:#F0E7D8;
+}
+
+a.extra {
+  padding: 2em;
+}
+
