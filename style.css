@@ -72,6 +72,8 @@ img {
 
 .ss {
   border-radius: 20%;
+  max-width: 300px;
+
 }
 
 #special {
